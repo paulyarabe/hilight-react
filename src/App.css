@@ -1,14 +1,16 @@
-#buttontop {
-  padding-top: 25px;
+#booklink {
+  font-size: 16px;
+  color: #357df2;
 }
 
 h2 span {
-  font-size: 28px;
-  color: #dddddd;
+  font-size: 24px;
+  color: #8f9599;
 }
 
 p {
-  font-size: 19px;
+  font-size: 18px;
+  text-align:justify;
 }
 
 .clear {
@@ -20,29 +22,33 @@ header {
 }
 
 .slogan {
-  padding-top: 30px;
-  font-family: 'geometria-light';
-  // src: font_url('geometria-light-webfont.woff2') format('woff2'),
-  //      font_url('geometria-light-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-size: 26px;
+  padding-top: 26px;
+  font-size: 22px;
+  color: #357df2;
 }
 
 #hilight {
-  padding: 60px;
-  width:900px;
-  margin: auto
+  width:800px;
+  margin: auto;
+  border: 2px solid grey;
+  text-align: center;
+  height: 430px;
+  margin-top: 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .links a{
   padding-top: 26px;
-  font-size: 20px;
-  border-bottom: 1px solid #dfdfdf;
+  font-size: 22px;
+  color: #357df2;
 }
 
 .links {
-  padding-top: 30px;
+  padding-top: 26px;
+  color: #357df2;
 }
 
 hr {
@@ -61,6 +67,7 @@ h6 {
 .footer-blurb {
   text-align: center;
   font-size: 16px;
+  color: #357df2;
 }
 
 @media (max-width: 750px) {
@@ -91,17 +98,8 @@ body {
   height: 60px;
 }
 
-
-
-
-
 .App {
   text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
 }
 
 .App-header {
@@ -109,13 +107,4 @@ body {
   height: 150px;
   padding: 20px;
   color: white;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
 }

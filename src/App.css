@@ -1,3 +1,14 @@
+#instructions {
+  padding-top: 50px;
+}
+
+#sayHi {
+  margin-left: 100px;
+  text-align: left;
+  font-size: 22px;
+  color: #357df2;
+}
+
 #booklink {
   font-size: 16px;
   color: #357df2;
@@ -33,7 +44,8 @@ header {
   border: 2px solid grey;
   text-align: center;
   height: 430px;
-  margin-top: 80px;
+  margin-top: 40px;
+  margin-bottom: 15px;
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 30px;
@@ -65,6 +77,7 @@ h6 {
 }
 
 .footer-blurb {
+  padding-top: 20px;
   text-align: center;
   font-size: 16px;
   color: #357df2;
@@ -107,4 +120,65 @@ body {
   height: 150px;
   padding: 20px;
   color: white;
+}
+
+.tip {
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  background: transparent;
+  border: 10px solid #ccc;
+}
+
+.tip-up {
+  top: -25px; /* Same as body margin top + border */
+  left: 10px;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  border-top-color: transparent;
+}
+
+.tip-down {
+  bottom: -25px;
+  left: 10px;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+}
+
+.tip-left {
+  top: 10px;
+  left: -25px;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+}
+
+.tip-right {
+  top: 10px;
+  right: -25px;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+}
+
+.dialogbox .body {
+  position: relative;
+  max-width: 760px;
+  height: auto;
+  margin: 20px 10px;
+  padding: 5px;
+  background-color: #DADADA;
+  border-radius: 3px;
+  border: 5px solid #ccc;
+  margin-left: 120px;
+}
+
+.body .message {
+  min-height: 30px;
+  border-radius: 3px;
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #797979;
 }

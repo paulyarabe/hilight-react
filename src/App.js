@@ -42,7 +42,7 @@ class App extends Component {
   // }
 
   onMouseEnter = () => {
-    fetch(`http://${window.ipAddress}:3000/hilight`)
+    fetch(`https://hilight-db.herokuapp.com/hilight`)
     .then(resp => resp.json())
     .then(hilight_data => this.setState({
       hilight: hilight_data,

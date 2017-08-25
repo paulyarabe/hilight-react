@@ -68,7 +68,7 @@ class App extends Component {
         <header className="row">
           <div className="col-xs-5 slogan">HiLights</div>
           <div className="col-xs-7 links">
-            <a href="https://paulyarabe.com" target="_blank">Learn More</a>&nbsp;&nbsp;&nbsp;
+            <a href="https://paulyarabe.com" target="_blank">Blog</a>&nbsp;&nbsp;&nbsp;
             <a href="https://github.com/awaisathar/lda.js" target="_blank">Topic Modeling in JS</a>
             <clear></clear>
           </div>

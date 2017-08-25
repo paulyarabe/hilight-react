@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
 import Auth from './services/Auth'
-import IP from './components/IP'
 
 class App extends Component {
 
@@ -70,7 +69,7 @@ class App extends Component {
           <div className="col-xs-5 slogan">HiLights</div>
           <div className="col-xs-7 links">
             <a href="https://paulyarabe.com" target="_blank">Learn More</a>&nbsp;&nbsp;&nbsp;
-            <a href="javascript:void(0)" target="_blank">Topic Modeling</a>
+            <a href="https://github.com/awaisathar/lda.js" target="_blank">Topic Modeling in JS</a>
             <clear></clear>
           </div>
         </header>
@@ -80,9 +79,11 @@ class App extends Component {
         <div id="hilight" onMouseEnter={this.onMouseEnter} >
           {highlight_div}
         </div>
-        <div id="sayHi">
-          Say Hi here!
-        </div>
+        {/*
+          <div id="sayHi">
+            Say Hi here!
+          </div>
+        */}
         <div>
               {this.state.comments.map((comment, id) => <div className="dialogbox"><div className="body"><span className="tip tip-left"></span><div className="message"><span>{comment.comment}<br /> <span style={{float:'right', marginTop: '-10px'}}>- {comment.commentator}</span></span></div></div></div>)}
         </div>

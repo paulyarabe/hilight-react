@@ -74,7 +74,7 @@ class App extends Component {
           </div>
         </header>
         <div id="instructions">
-          <h4>Hover into the box to display one of almost 2100 highlights from my past 3 years of reading</h4>
+          <h4>Hover into the box to display one of more than 2000 highlights from my past 3 years of reading</h4>
         </div>
         <div id="hilight" onMouseEnter={this.onMouseEnter} >
           {highlight_div}

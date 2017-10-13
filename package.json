@@ -9,7 +9,8 @@
     "react-bootstrap": "^0.31.2",
     "react-dom": "^15.6.1",
     "react-reveal-text": "0.0.3",
-    "react-scripts": "1.0.11"
+    "react-scripts": "1.0.11",
+    "semantic-ui-react": "^0.71.5"
   },
   "scripts": {
     "start": "react-scripts start",

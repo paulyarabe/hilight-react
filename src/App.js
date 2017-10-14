@@ -66,15 +66,15 @@ class App extends Component {
     return (
       <div className="App">
         <header className="row">
-          <div className="col-xs-5 slogan">HiLights</div>
+          <div className="col-xs-5 slogan">HiLights (say Hi through a highlight)</div>
           <div className="col-xs-7 links">
             <a href="https://paulyarabe.com" target="_blank">Blog</a>&nbsp;&nbsp;&nbsp;
-            <a href="https://github.com/awaisathar/lda.js" target="_blank">Topic Modeling in JS</a>
+            <a href="https://github.com/awaisathar/lda.js" target="_blank">Topic Modeling</a>
             <clear></clear>
           </div>
         </header>
         <div id="instructions">
-          <h4>Hover into the box to display one of more than 2000 highlights from my past 3 years of reading</h4>
+          <h4>Hover cursor into and out of the box to display some of my more than 2000 highlights from my past 3 years of casual reading</h4>
         </div>
         <div id="hilight" onMouseEnter={this.onMouseEnter} >
           {highlight_div}
